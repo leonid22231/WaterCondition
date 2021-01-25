@@ -23,7 +23,7 @@
             android:layout_height="200px"
             android:background="@drawable/button_curcle"
             android:layout_gravity="center"
-            android:src="@drawable/baseline_opacity_white_18dp" />
+            android:src="@drawable/water_img" />
 
         <ImageButton
             android:id="@+id/setting_button"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:background="@color/main_button_color"
-            android:src="@drawable/settings_img"></ImageButton>
+            android:src="@drawable/settings_img" />
         <ProgressBar
             android:id="@+id/progressBar"
             android:layout_width="245px"
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/main_button_color"
-            android:src="@drawable/refresh"
+            android:src="@drawable/refresh_img"
             ></ImageButton>
     </FrameLayout>
 </androidx.wear.widget.BoxInsetLayout>
